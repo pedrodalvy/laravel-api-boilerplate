@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits\Users;
+namespace App\Traits\Auth;
 
 trait GetJWT
 {
