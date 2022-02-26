@@ -16,8 +16,10 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Clean up the README.md file
 
 ## Development
-To run server, just run: `./vendor/bin/sail up` and visit http://localhost:8080
-To open the shell, just `./vendor/bin/sail shell`
+- To run server, just run: `./vendor/bin/sail up` and visit http://localhost:8080
+- To open the shell, just `./vendor/bin/sail shell`
+
+> More information about development can be found in the [Laravel Sail Documentation](https://laravel.com/docs/9.x/sail#main-content)
 
 ## Features
 
