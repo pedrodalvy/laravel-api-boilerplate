@@ -2,6 +2,7 @@
 This is a Laravel Boilerplate to create a RESTful API.
 
 ## Getting Started
+Just click on [`Use this template`](https://github.com/pedrodalvy/laravel-api-boilerplate/generate) GitHub button to create a new project based on this template.
 
 ## Checklist
 When you use this template, try follow the checklist to update your info properly
