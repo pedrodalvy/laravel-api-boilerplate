@@ -4,20 +4,27 @@ This is a Laravel Boilerplate to create a RESTful API.
 ## Getting Started
 Just click on [`Use this template`](https://github.com/pedrodalvy/laravel-api-boilerplate/generate) GitHub button to create a new project based on this template.
 
-## Checklist
+## Checklist (without Kool)
 When you use this template, try follow the checklist to update your info properly
 
 - [ ] Create `.env` file: `cp .env.example .env`
 - [ ] Update `.env` file with your project and docker info
-- [ ] Start docker: `./vendor/bin/sail up`
-- [ ] Generate secret key: `./vendor/bin/sail artisan jwt:secret`
-- [ ] Generate database: `./vendor/bin/sail migrate`
-- [ ] Generate admin user: `./vendor/bin/sail artisan db:seed`
+- [ ] Start docker: `docker-compose up`
+- [ ] Generate secret key: `artisan jwt:secret`
+- [ ] Generate database: `artisan migrate`
+- [ ] Generate admin user: `artisan db:seed`
 - [ ] Clean up the README.md file
 
 ## Development
-- To run server, just run: `./vendor/bin/sail up` and visit http://localhost:8080
-- To open the shell, just `./vendor/bin/sail shell`
+- To run server, just run: `docker-compose up` and visit http://localhost:8080
+
+## Using Kool
+- [ ] Update `.env.example` file with your project and docker basic info
+- [ ] Setup project: `kool setup`
+- [ ] Generate secret key: `kool run artisan jwt:secret`
+- [ ] Generate database: `kool run artisan migrate`
+- [ ] Generate admin user: `kool run artisan db:seed`
+- [ ] Clean up the README.md file
 
 > More information about development can be found in the [Laravel Sail Documentation](https://laravel.com/docs/9.x/sail#main-content)
 
