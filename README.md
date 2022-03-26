@@ -15,9 +15,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Generate admin user: `artisan db:seed`
 - [ ] Clean up the README.md file
 
-## Development
-- To run server, just run: `docker-compose up` and visit http://localhost:8080
-
 ## Using Kool
 - [ ] Update `.env.example` file with your project and docker basic info
 - [ ] Setup project: `kool run setup`
@@ -28,6 +25,9 @@ When you use this template, try follow the checklist to update your info properl
 
 > More information about Kool can be found in the [Kool.dev Documentation](https://kool.dev/docs/getting-started/introduction)
 
+## Development
+- To run server, just run: `docker-compose up` or `kool start` and visit http://localhost:8080
+
 ## Features
 
 ### JWT Authentication
@@ -35,6 +35,9 @@ Installed and configured JWT authentication.
 
 ### User ApiResource
 Created a User ApiResource to manage users.
+
+### Integration with Kool
+Integrated with Kool to work with Docker.
 
 ### TODO
 Features to be added:
