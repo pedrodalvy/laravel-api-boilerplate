@@ -26,7 +26,7 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Generate admin user: `kool run artisan db:seed`
 - [ ] Clean up the README.md file
 
-> More information about development can be found in the [Laravel Sail Documentation](https://laravel.com/docs/9.x/sail#main-content)
+> More information about Kool can be found in the [Kool.dev Documentation](https://kool.dev/docs/getting-started/introduction)
 
 ## Features
 
