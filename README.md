@@ -20,7 +20,7 @@ When you use this template, try follow the checklist to update your info properl
 
 ## Using Kool
 - [ ] Update `.env.example` file with your project and docker basic info
-- [ ] Setup project: `kool setup`
+- [ ] Setup project: `kool run setup`
 - [ ] Generate secret key: `kool run artisan jwt:secret`
 - [ ] Generate database: `kool run artisan migrate`
 - [ ] Generate admin user: `kool run artisan db:seed`
